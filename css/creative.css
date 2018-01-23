@@ -539,6 +539,28 @@
     margin: 5px 2px;
     }
 
+.fa-twitter {
+    background: #1DA1F2;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    }
+    
+.fa-spotify {
+    background: #1ED760;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    }
+
 .fa-envelope-o:hover {
     color: black;
 }
@@ -549,6 +571,7 @@
 
 header.masthead .header-content .header-content-inner h1 {
     font-size: 8.3vmin;
+    opacity: 0.7;
 }
 
 
@@ -559,4 +582,8 @@ header.masthead .header-content .header-content-inner h1 {
         white-space: nowrap;
         overflow: hidden;
     }
+ }
+
+ #music {
+    padding-top: 0;
  }
